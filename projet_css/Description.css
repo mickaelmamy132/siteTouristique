@@ -1,0 +1,116 @@
+*{
+	font-family: sans-serif;
+}
+
+.containeur{
+	width:100%;
+	height:400px;
+	background-image:url("../image/Descciption.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	top:0 ;
+	left:0;	
+}
+
+.fondNoire{
+	width:100%;
+	height:100%;
+	background-color: rgba(2,9,16,0.3);
+	position: absolute;
+
+}
+
+#nom_region{
+	font-size: 120px;
+	color:white;
+	letter-spacing: 10px;
+	position: absolute;
+	right: 20%;
+}
+
+#region{
+	font-size: 60px;
+	color:white;
+	position: absolute;
+	right: 47%;
+}
+
+
+.menu_containeur{
+	height: 70px;
+	width: 70%;
+	margin-top: 20px; 
+}
+
+li{
+	display: inline-block;
+	margin-right: 50px;
+} 
+
+a{
+	color: white;
+	text-decoration:none;
+	border: 1px solid white;
+	padding:5px 10px 5px 10px;
+	border-radius: 5px;
+}
+
+a:hover{
+
+background-color: white;
+color:rgba(2,9,16,0.8);
+
+}
+#des-is-active{
+
+background-color: white;
+color:rgba(2,9,16,0.8);
+
+}
+
+
+#section{
+	width: 100%;
+	height:700px;
+	background:rgba(2,2,2,0.1); 
+	margin-top: 450px;
+	margin-bottom: 20px;	
+	display: flex; 
+	align-items: center;
+	justify-content: space-around;
+}
+#article
+	{
+	width: 70%;
+	height:100% ;
+	overflow: scroll;
+	}
+#image
+	{
+	width: 30%;
+	height:100% ;
+	background: ;
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+	flex-direction: column;
+
+	}
+
+#intro{
+	width: 90%;
+	background-color: ;
+	margin:50px auto;
+	padding: 20px;
+}
+
+#relief{
+	list-style-type:none;
+}
+
+img{
+	width: 100%;
+
+}
+
